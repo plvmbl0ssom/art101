@@ -1,21 +1,21 @@
 h1 {
-  color: rgb(182, 159, 212);
-  font-size: 200%;
-  font-family: "sundries"
+    color: rgb(182, 159, 212);
+   font-size: 200%;
+   font-family: "sundries"
 }
 
 p {
-  font-family: "lemon milk";
-  text-indent: 20px;
-  margin-left: 10px;
+   font-family: "lemon milk";
+   text-indent: 20px;
+   margin-left: 10px;
 }
 
 #content {
-  background-color: #e7dce4;
-  width: 500px;
-  min-height: 300px;
-  padding: 10px;
-  margin: 10px;
-  border:dashed 3px #95b8d1;
-  font-size: 20px;
+   background-color: #e7dce4;
+   width: 500px;
+   min-height: 300px;
+   padding: 10px;
+   margin: 10px;
+   border:dashed 3px #95b8d1;
+   font-size: 20px;
 }
