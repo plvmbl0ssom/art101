@@ -7,3 +7,28 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .filestruc-photo {
+    margin: 10px;
+    max-width: 500px;
+  }
+
+  .indexart101-photo {
+    margin: 10px;
+    max-width: 500px;
+  }
+
+  .homepage-photo {
+    margin: 10px;
+    max-width: 500px;
+  }
+
+  .indexlab3-photo {
+    margin: 10px;
+    max-width: 500px;
+  }
+
+  .lab3browser-photo {
+    margin: 10px;
+    max-width: 500px;
+  }
