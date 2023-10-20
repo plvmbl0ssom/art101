@@ -7,3 +7,12 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .code {
+    /* background is the hex value for dark gray */
+    background-color: #404040;
+    color: white;
+    font-family: "Consolas", "Cournier New", Courier, monospace
+    padding: 10px;
+    display: inline-block;
+  }
