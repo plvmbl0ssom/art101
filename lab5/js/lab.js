@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Jazmine Noguera <jgnoguer@ucsc.edu>
+// October 23, 2023
 
 // Constants
 
