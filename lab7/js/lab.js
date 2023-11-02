@@ -1,15 +1,7 @@
-// index.js - The purpose of this lab is experiment with functions.
+// index.js - The purpose of this lab is to experiment with functions using string manipulation and user input.
 // Author: Jazmine Noguera
 // Date: November 1, 2023
 
-//str = "What's your name?"
-//str.split("")
-//splitStr = str.split("") 
-//splitStr.join("")
-//splitStr.reversesort()
-
-// sort UserName - a function that takes user input and sorts the letters
-// of their name
 function sortUserName() {
   var userName = window.prompt("Hi. Please tell me your name so I can change it!");
   console.log("userName =", userName);
@@ -30,4 +22,4 @@ function sortUserName() {
 }
 //output
 document.writeln("Here is your New and Improved name!: ",
-  sortUserName(), "</br>");
+  sortUserName(),"</br>");
