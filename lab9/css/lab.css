@@ -8,6 +8,12 @@
   background-color: #d7eaf8;
 }
 
+.special {
+  background-color: lavender;
+  border: dashed 50px pink;
+  font-weight: italic;
+}
+
 body {
   background-color: #fadef4;
 }
