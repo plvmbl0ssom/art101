@@ -1,17 +1,24 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+.special {
+  background-color: rgb(79, 79, 164);
+  border: dashed 10px rgb(192, 255, 209);
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.highlight {
+  background-color: paleturquoise;
+  border: solid 1px blueviolet;
+}
+
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
   background-color: #d7eaf8;
-}
-
-.special {
-  background-color: lavender;
-  border: dashed 50px pink;
-  font-weight: italic;
 }
 
 body {
