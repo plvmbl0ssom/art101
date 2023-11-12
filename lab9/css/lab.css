@@ -3,8 +3,10 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
 .special {
-  background-color: rgb(79, 79, 164);
-  border: dashed 10px rgb(192, 255, 209);
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4f4fa4;
+  border: dashed 5px #c0ffd1;
   font-weight: bold;
   font-family:'Courier New', Courier, monospace;
 }
