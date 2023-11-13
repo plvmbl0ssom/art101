@@ -12,29 +12,14 @@ $("#button-challenge").click(function(){
     $("#challenge").toggleClass("special");
 });
 
-// add button to problems section
-$("#problems").append("<button id='button-problems'>Toggle Highlight</button>");
+// Hint 1: If you give all three sections a class (".minor-section"), you can add a button to all three in one jQuery selector and method call.
+// Hint 2: If you use a jQuery selector that selects all three new buttons, you can attach an event listener to all three at the same time 
+$(".minor-section").append("<button id='minor-section button'>Toggle Highlight</button>");
 
-// add a click listener to the problems button
-$("#button-problems").click(function(){
-    // now add (or subtract) the "highlight" class to the section
-    $("#problems").toggleClass("highlight");
-});
-
-// add button to reflection section
-$("#reflection").append("<button id='button-reflection'>Toggle Highlight</button>");
-
-// add a click listener to the reflection button
-$("#button-reflection").click(function(){
-    // now add (or subtract) the "highlight" class to the section
-    $("#reflection").toggleClass("highlight");
-});
-
-// add button to results section
-$("#results").append("<button id='button-results'>Toggle Highlight</button>");
-
-// add a click listener to the results button
-$("#button-results").click(function(){
-    // now add (or subtract) the "highlight" class to the section
-    $("#results").toggleClass("highlight");
-});
+// TASK X
+// Hint 3: Within a jQuery callback the keyword $(this) refers to the thing being selected. The jQuery
+// method .parent() selects the parent of the selected element.
+// So within the callback, we can use $(this).parent() to select the section that the button is in!
+$(".minor-section button").click(function(){
+    $(this).parent().toggleClass("highlight");
+})
