@@ -1,7 +1,7 @@
 // index.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page.
 // Requirements: jQuery must be loaded for this script to work.
 // Author: Jazmine Noguera
-// Date: November 9, 2023
+// Date: November 12, 2023
 
 // add button to challenge section
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
