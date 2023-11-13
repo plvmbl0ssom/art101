@@ -8,7 +8,7 @@
   background-color: #4f4fa4;
   border: dashed 5px #c0ffd1;
   font-weight: bold;
-  font-family:'Courier New', Courier, monospace;
+  font-family:'Courier New';
 }
 
 .highlight {
@@ -27,23 +27,7 @@ body {
   background-color: #fadef4;
 }
 
-p {
-  font-family: raleway;
-}
-
-li {
-  font-family: raleway;
-}
-
-h1 {
-  font-family: raleway;
-}
-
-h2 {
-  font-family: raleway;
-}
-
-h3 {
+p, h1, h2, h3, li {
   font-family: raleway;
 }
 
