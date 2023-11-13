@@ -3,24 +3,34 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
 .special {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #4f4fa4;
-  border: dashed 5px #c0ffd1;
+  background-color: rgb(157, 157, 226) !important;
+  border: dashed 5px #c0ffd1 !important;
   font-weight: bold;
-  font-family:'Courier New';
 }
 
 .highlight {
-  background-color: paleturquoise;
-  border: solid 1px blueviolet;
+  background-color: #d7eaf8 !important;
+  border: solid 1px blueviolet !important;
+}
+
+button {
+  font-family: 'raleway'; font-size: 15px;
+  background-color:#fadef4;
+  border-radius:20%;
+} 
+
+#challenge {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color:#d7eaf8;
 }
 
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #d7eaf8;
+  background-color: #e0d3fb;
 }
 
 body {
