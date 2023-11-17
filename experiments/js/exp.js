@@ -9,5 +9,5 @@ $("#my-button").click(function(){
     var name = prompt("What is your name?");
     console.log("Prompt returned: " + name);
     newText = "Hello " + name + "!";
-    $("#h1").html(newText);
+    $("#title").html(newText);
 });
