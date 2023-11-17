@@ -23,6 +23,7 @@
   font-size: 0.8em;
 }
 
+/* thanks professor modes for css: */
 .text:nth-child(odd) {
   text-align: left;
 }
