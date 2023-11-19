@@ -19,7 +19,7 @@ body {
   background-color: #fadef4;
 }
 
-p, h1, h2, h3, li {
+p, h1, h2, h3, li, input {
   font-family: raleway;
 }
 
