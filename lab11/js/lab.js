@@ -3,6 +3,8 @@
 // Author: Jazmine Noguera
 // Date: November 18, 2023
 
+console.log("Javascript is working!");
+
 //thanks professor modes for anagram function
 function generateAnagram(inputString) {
     //Convert the input string to an array of characters
