@@ -3,60 +3,58 @@
 // Author: Jazmine Noguera
 // Date: November 26, 2023
 
-// thanks professor modes for the code!
-maxFactors = 4;
-outputEl = document.getElementById("output");
-function getFactorObj() {
-    var factorObj = {};
-    for (var factor=0; factor<maxFactors; factor++) {
-        numId = "num" + factor;
-        textId = "text" + factor;
-        numValue = document.getElementById(numId).value;
-        textValue = document.getElementById(textId).value;
-        console.log(factor + ") num:", numValue, "text:", textValue)
-        if (numValue && textValue) {
-            factorObj[numValue] = textValue;
-        }
+// chatgpt
+var str = "";
+function fizzBuzzBoom() {
+    // print all the numbers from 1 to 200.
+    for (let i = 1; i <= 200; i++ ) {
+
+    // If the number is a multiple of more than one 3, 5 or 7, it should combine Fizz, Buzz, and Boom.
+    // For example, if the number is a multiple of 3 AND 5, it should print "FizzBuzz!" and so on.
+    if (index % 15 == 0) {
+      str += "FizzBuzz!"<br>
+      $("#output").append("<p>" + str + "</p>");
     }
-    return factorObj;
-}
-function outputToPage(str) {
-    newEl = document.createElement("p");
-    newEl.innerHTML = str;
-    outputEl.appendChild(newEl);
-}
-function fizzBuzzBoom(maxNums, factorObj) {
-    for (var num=0; num<maxNums; num++) {
-        debugger;
-        var outputStr = "";
-        for (var factor in factorObj) {
-            if (num % factor == 0) {
-                outputStr += factorObj[factor];
-            }
-        }
-        if (outputStr) {
-            outputStr = " - " + outputStr + "!";
-        }
-        outputToPage(num.toString() + outputStr)
+    
+    if (index % 21 == 0) {
+        str += "FizzBoom!"<br>
+        $("#output").append("<p>" + str + "</p>");
     }
-}
-function reportError(str) {
-    outputEl.innerHTML = "<div class='error'>" + str + "</div>";
-}
-document.getElementById("submit").addEventListener("click", function() {
-    var max = document.getElementById("max").value;
-    console.log("max:", max)
-    if (! max) {
-        reportError("You must provide a maximum");
-        return;
+    
+    if (index % 35 == 0) {
+        str += "BuzzBoom!"<br>
+        $("#output").append("<p>" + str + "</p>");
+      }
+
+  if (str === ""){
+    str = i;
+  }
+    // if the number is a multiple of 3,
+    // print "Fizz" instead of the number
+    else if (index % 3 == 0) {
+        str += "Fizz!"<br>
+        $("#output").append("<p>" + str + "</p>");
+
     }
-    var factorObj = getFactorObj();
-    console.log("factorObj:", factorObj);
-    if (Object.keys(factorObj).length === 0) {
-        reportError("You must provide at least one factor and text");
-        return;
+    
+    // if the number is a multiple of 5,
+    // print "Buzz" instead of the number 
+    else if (index % 5 == 0) {
+        str += "Buzz!"<br>
+        $("#output").append("<p>" + str + "</p>");
     }
-    outputEl.innerHTML = "";
-    fizzBuzzBoom(max, factorObj);
-    outputEl.classList.add("cols");
-})
+    // if the number is a multiple of 7,
+    // print "Boom" instead of the number
+    else if (index % 7 == 0) {
+        str += "Boom!"<br>
+        $("#output").append("<p>" + str + "</p>");
+    }
+    
+    // otherwise print the number
+    else {
+        str += index<br>
+        $("#output").append("<p>" + str + "</p>");
+    }}
+    
+};
+    
