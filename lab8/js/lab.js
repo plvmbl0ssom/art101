@@ -22,6 +22,3 @@ console.log("Test of numbers in array added to 20:", result);
 var result = array.map(function(x){
   return x * 16;
 })
-
-// should return [176, 240, 960, 528, 924800, 144000, 79792]
-console.log("Array multiplied by 16:", result);
