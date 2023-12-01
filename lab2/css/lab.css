@@ -1,16 +1,16 @@
-h1 {
+#title {
     color: rgb(182, 159, 212);
    font-size: 200%;
    font-family: "sundries"
 }
 
-p {
+#jaz, #ren {
    font-family: "lemon milk";
    text-indent: 20px;
    margin-left: 10px;
 }
 
-#content {
+#css {
    background-color: #e7dce4;
    width: 500px;
    min-height: 300px;

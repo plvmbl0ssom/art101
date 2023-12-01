@@ -11,6 +11,7 @@ function sortSeason(str) {
     var len = str.length;
     var mod = len % 4;
 
+
     if (mod == 0) {
       return "Winter";
     }
