@@ -10,19 +10,18 @@ console.log("Learn what season you are based on your name!")
 function sortSeason(str) {
     var len = str.length;
     var mod = len % 4;
-    var season;
 
     if (mod == 0) {
-      season = "Winter";
+      return "Winter";
     }
     else if (mod == 1) {
-      season = "Spring";
+      return "Spring";
     }
     else if (mod == 2) {
-      season = "Summer";
+      return "Summer";
     }
     else if (mod == 3) {
-      season = "Fall";
+      return "Fall";
     }
     return season;
 }
