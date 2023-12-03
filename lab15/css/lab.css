@@ -2,10 +2,11 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
-/* button {
-  font-family: 'raleway';
+button {
+  font-family: 'raleway'; font-size: 15px;
   background-color:#fadef4;
-}  */
+  border-radius:20%;
+} 
 
 .minor-section {
   padding: 10px;
