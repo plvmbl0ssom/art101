@@ -1,0 +1,30 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+/* button {
+  font-family: 'raleway';
+  background-color:#fadef4;
+}  */
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #d7eaf8;
+}
+
+body {
+  background-color: #fadef4;
+}
+
+p, h1, h2, h3, li, input, #enter {
+  font-family: raleway;
+}
+
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #888;
+  background-color: #e0d3fb;
+}
