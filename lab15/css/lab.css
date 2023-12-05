@@ -4,7 +4,7 @@
 
 button {
   font-family: 'raleway'; font-size: 15px;
-  background-color:#fadef4;
+  background-color:rgb(246, 236, 200);
   border-radius:20%;
 } 
 
@@ -12,20 +12,21 @@ button {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #d7eaf8;
+  background-color: #1c1b1c;
 }
 
 body {
-  background-color: #fadef4;
+  background-color: #1c1b1c;
 }
 
-p, h1, h2, h3, li, input, #enter {
+p, h2, h3, li, input, #enter {
   font-family: raleway;
+  color: white
 }
 
 #content {
   margin: 10px;
   padding: 10px;
   border: solid 1px #888;
-  background-color: #e0d3fb;
+  background-color: rgb(246, 236, 200);
 }
